@@ -1,0 +1,12 @@
+// Smooth scroll
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+}
+
+// Animate skill bars on scroll
+window.addEventListener("scroll", () => {
+  document.querySelectorAll(".bar div").forEach(bar => {
+    let width = bar.getAttribute("style").match(/width:(.*)/)[1];
+    bar.style.width = width; // triggers animation
+  });
+});
