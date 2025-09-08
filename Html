@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamali | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Kamali</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <h2>Hello, I'm <span class="highlight">Kamali</span> 👋</h2>
+    <p>Welcome to my portfolio website</p>
+    <button onclick="scrollToSection('contact')">Hire Me</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm <b>Kamali</b>! I am passionate about creating 
+      beautiful and user-friendly websites. I enjoy learning 
+      new technologies and working on creative projects.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+    <div class="skill-bar">
+      <span>HTML</span>
+      <div class="bar"><div style="width:90%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <span>CSS</span>
+      <div class="bar"><div style="width:80%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <span>JavaScript</span>
+      <div class="bar"><div style="width:70%"></div></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">Portfolio Website</div>
+      <div class="project-card">Landing Page</div>
+      <div class="project-card">To-Do List App</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:kamalivenkatesan2007@gmail.com">kamalivenkatesan2007@gmail.com</a></p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Kamali | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
